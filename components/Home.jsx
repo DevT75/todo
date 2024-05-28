@@ -34,7 +34,7 @@ const Home = () => {
 
 
   return (
-    <div className='relative w-full h-screen flex flex-col py-20 px-5 md:px-20 justify-between items-center gap-8'>
+    <div className='relative w-full h-screen flex flex-col py-20 px-5 md:px-20 justify-between items-center gap-1'>
       {/* <h1>TODO List</h1> */}
       <div className='w-full'>
         <AddTask />

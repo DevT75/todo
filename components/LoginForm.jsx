@@ -17,7 +17,7 @@ const LoginForm = () => {
     };
 
     return (
-        <div className='w-1/4 py-16 flex flex-col justify-between items-center p-8 rounded-md backdrop-blur-sm bg-white/15 gap-4 border'>
+        <div className='w-5/6 md:w-3/6 lg:w-2/6 md:py-16 flex flex-col justify-between items-center p-8 rounded-md backdrop-blur-sm bg-white/15 gap-4 border'>
             <h1 className='text-white mb-6 text-2xl'>Welcome User!!</h1>
             <form onSubmit={handleSubmit} className='flex flex-col gap-8 w-full justify-center items-center'>
                 <input

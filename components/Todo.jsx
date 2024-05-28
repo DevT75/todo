@@ -29,9 +29,9 @@ export default ({ title, desc, isCompleted, id, onDelete, onEdit, setTodos }) =>
             <div className="absolute top-1 left-1 flex-1">
                 {
                     isCompleted ? (
-                        <div className="w-auto h-6 bg-green-500 rounded-md px-2 flex items-center text-sm">Done</div>
+                        <div className="w-auto h-6 bg-green-500 rounded-md px-2 flex items-center text-sm text-white font-semibold">Done</div>
                     ) : (
-                        <div className="w-auto h-6 bg-red-500 rounded-md px-2 flex items-center text-sm">In Progress</div>
+                        <div className="w-auto h-6 bg-red-500 rounded-md px-2 flex items-center text-sm text-white font-semibold">Pending</div>
                     )
                 }
             </div>
@@ -74,7 +74,7 @@ export default ({ title, desc, isCompleted, id, onDelete, onEdit, setTodos }) =>
                                 />
                                 <input type='checkbox' onChange={(e) => { setUpdateDue(e.target.checked) }} />
                                 <button type="submit" className='mt-6 w-1/2 bg-black text-white font-semibold hover:bg-white hover:border-2 hover:border-black hover:text-black rounded p-4'
-                                >Add Task</button>
+                                >Update Task</button>
                             </form>
                         </div>
                     </Modal>
